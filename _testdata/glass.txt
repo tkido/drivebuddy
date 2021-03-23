@@ -1,0 +1,31 @@
+Discover Xevo Glass: the automotive industryÅfs most intelligent infotainment platform, offering drivers an unrivaled connected car experience. Get started today: https://xevo.com/glass/
+
+Xevo Glass
+
+Glass is a customizable map-centric in-vehicle infotainment platform for automotive OEMs. Glass delivers a full suite of well-known third-party apps in addition to custom OEM applications and services, all optimized for the automotive environment.
+
+A Truly Intelligent In-Vehicle Infotainment and Commerce Platform
+
+Xevo Glass is presented to consumers via an intuitive, driver-safety-tested interface and includes a full suite of streaming media and productivity apps, integration with popular voice assistants, and an AI-powered recommendation engine to suggest relevant stops or points of interest along a particular route. Every aspect of Glass is OEM-customizable, including app selection and themed user interfaces, to allow differentiation by brand or vehicle model.
+
+Management Portal
+
+Glass is administered via a cloud-based management portal, making it possible for automotive OEMs to maintain complete control of app provisioning, updates, the customer relationship, and all data generated from interactions. Glass also allows OEMs to offer data plans and manage costs, while giving them the ability to capitalize on monetization opportunities.
+
+Driver-Optimized Experience
+
+At the core of Xevo Glass is an intelligent mapping solution, which seamlessly integrates navigation and interactions, suggesting relevant stops or points of interest along the route. Using our intuitive, safety-tested interface Glass anticipates a driverÅfs needs to deliver an unparalleled in-vehicle experience. Mapping and navigation features can also be integrated with an OEMÅfs existing mapping provider.
+
+AI-Powered Recommendations
+
+Xevo Glass utilizes advanced artificial intelligence to deliver a dynamic, hyper-contextual user experience, tailored to each journey. Relevant content is displayed as suggestions based on driver preferences, past behavior, time of day, vehicle location, and more.
+
+Voice Integration
+
+Xevo Glass integrates with popular voice assistants as well as OEM-embedded voice platforms, extending hands-free voice access to a wide set of infotainment and commerce functions. Glass supports voice control features across media, navigation, productivity, service scheduling, and commerce apps.
+
+Comprehensive App Center & SDK
+
+Automakers may choose from a full suite of native Android and thin client apps specifically designed, optimized, and safety-tested for the automotive environment, including streaming, productivity, and commerce apps.
+
+Also provided is an SDK for bespoke applications, such as an OEM parts and accessories shop, connected services sign-up, or a vehicle service scheduling app.
