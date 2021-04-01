@@ -1,8 +1,11 @@
 package main
 
 import (
+	"log"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
+	transcoder "github.com/aws/aws-sdk-go/service/elastictranscoder"
 	"github.com/aws/aws-sdk-go/service/polly"
 
 	"fmt"
@@ -13,7 +16,51 @@ import (
 )
 
 func main() {
+	doTranscode()
+}
 
+const (
+	region          = `ap-northeast-1`
+	presetId        = `1351620000001-200060`
+	pipelineId      = `1614661200392-wu2bfw`
+	inputKey        = `glass.mp3`
+	outputKey       = `glass`
+	outputKeyPrefix = `awssdk/`
+	segmentDuration = `15`
+)
+
+func doTranscode() {
+	sess := session.Must(session.NewSessionWithOptions(session.Options{
+		SharedConfigState: session.SharedConfigEnable,
+	}))
+
+	svc := transcoder.New(sess)
+
+	resp, err := svc.CreateJob(
+		&transcoder.CreateJobInput{
+			Input: &transcoder.JobInput{
+				Key: aws.String(inputKey),
+			},
+			OutputKeyPrefix: aws.String(outputKeyPrefix),
+			Outputs: []*transcoder.CreateJobOutput{
+				&transcoder.CreateJobOutput{
+					PresetId:        aws.String(presetId),
+					Key:             aws.String(outputKey),
+					SegmentDuration: aws.String(segmentDuration),
+				},
+			},
+			PipelineId: aws.String(pipelineId),
+		},
+	)
+	if err != nil {
+		log.Printf("Failed: Create Job, %v\n", err)
+		return
+	}
+
+	log.Printf("Job Response: %v\n", resp.Job)
+}
+
+func doPolly() {
 	// The name of the text file to convert to MP3
 	fileName := `_testdata/glass.txt`
 

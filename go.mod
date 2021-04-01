@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/ChimeraCoder/anaconda v2.0.0+incompatible
 	github.com/ChimeraCoder/tokenbucket v0.0.0-20131201223612-c5a927568de7 // indirect
-	github.com/aws/aws-sdk-go v1.37.29 // indirect
+	github.com/aws/aws-sdk-go v1.38.10 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.2.0 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/polly v1.1.1 // indirect
